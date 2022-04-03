@@ -19,10 +19,6 @@ def get_all_blogs(page , page_size):
 
 
 
-
-
-
-
 class BlogType(str , Enum):
     # Defining blog types
     short = 'short'
